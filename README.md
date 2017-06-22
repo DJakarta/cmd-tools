@@ -19,6 +19,5 @@ Usage:
 
 ## To do: ##
 _other tools I want to implement_
-- nav: navigate to command/path similar to exp
 - expn: expnav combination between exp and nav
 - tortoisegit shortcuts
