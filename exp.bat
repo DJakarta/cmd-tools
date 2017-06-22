@@ -3,10 +3,13 @@
 if [%1]==[] goto runInWD
 
 :: if argument is present try to interpret it as command
-set pln=%cd%
-call %* > %tmp%tmpCmd
-set /p pln=<%tmp%tmpCmd
+set wlc=%cd%
 
+:: write the output of the command to a temporary file and read it
+call %* > %tmp%tmpCmd
+set /p wlc=<%tmp%tmpCmd
+
+:: check if it was empty meaning the argument was not a command outputing a path
 type nul > %tmp%blank
 fc %tmp%tmpCmd %tmp%blank > nul
 
@@ -19,8 +22,8 @@ explorer.exe %*
 goto:eof
 
 :openCmdRes
-	echo Opening %pln%
-	explorer.exe %pln%
+	echo Opening %wlc%
+	explorer.exe %wlc%
 	goto:eof
 
 :runInWd
