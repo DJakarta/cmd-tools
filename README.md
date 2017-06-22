@@ -14,7 +14,7 @@ Navigate to a different working directory. Similar to `cd`, only you can use the
 `nav <dir>` - navigates to the `<dir>` directory  
 
 ## location ##
-Show the location of a given executable or command. Similar to `where`, only it shows the path without the filename.
+Show the location of a given executable or command. Similar to `where`, only it shows the path without the filename.  
 **Usage:**  
 `location <cmd>` - outputs the path to the `<cmd>` command (executable, batch or other types)  
 
