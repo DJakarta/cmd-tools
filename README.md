@@ -13,6 +13,13 @@ Navigate to a different working directory. Similar to `cd`, only you can use the
 **Usage:**  
 `nav <dir>` - navigates to the `<dir>` directory  
 
+## expn ##
+Open an explorer window at a given path and navigate to it. Combination of `exp` and `nav`.
+**Usage:**  
+`expn` - opens an explorer window at the current working directory  
+`expn <cmd>` - tries to interpret the `<cmd>` command and use its output as the location in which to open the explorer window and navigate to  
+`expn <dir>` - opens an explorer window at the `<dir>` directory and navigates to it  
+
 ## location ##
 Show the location of a given executable or command. Similar to `where`, only it shows the path without the filename.  
 **Usage:**  
@@ -20,8 +27,8 @@ Show the location of a given executable or command. Similar to `where`, only it 
 
 ## To do: ##
 _other tools I want to implement_
-- expn: expnav combination between exp and nav
 - tortoisegit shortcuts
 
 _other to do_ 
 - give usage examples
+- automatically register paths for tools and dependencies (explorer.exe, etc)
