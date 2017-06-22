@@ -22,3 +22,5 @@ Show the location of a given executable or command. Similar to `where`, only it 
 _other tools I want to implement_
 - expn: expnav combination between exp and nav
 - tortoisegit shortcuts
+_other to do_
+- give usage examples
