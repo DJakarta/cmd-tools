@@ -28,7 +28,9 @@ Show the location of a given executable or command. Similar to `where`, only it 
 ## To do: ##
 _other tools I want to implement_
 - tortoisegit shortcuts
+- favorites system
 
 _other to do_ 
 - give usage examples
 - automatically register paths for tools and dependencies (explorer.exe, etc)
+- revgraph readme
