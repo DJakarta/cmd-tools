@@ -26,7 +26,7 @@ Show the location of a given executable or command. Similar to `where`, only it 
 `location <cmd>` - Outputs the path to the `<cmd>` command (executable, batch or other types)  
 
 ## zipfc ##
-Show a count of total files and bytes stored in .zip archives.
+Show a count of total files and bytes stored in .zip archives.  
 **Usage:**  
 `zipfc [-v] [files...]` - Counts the files in the given archives. If no archives are given, it uses all the `.zip` archives in the working directory. Verbose output can be turned on with `-v`.
 
